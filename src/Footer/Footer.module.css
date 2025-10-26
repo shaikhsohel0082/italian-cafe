@@ -1,0 +1,64 @@
+.footer {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  font-family: Manrope;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 6%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ababab !important;
+  width: 30%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.iconWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  margin-top: 50px;
+  
+}
+.watermark {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 6%;
+  color: #64615c;
+  padding: 50px 0 20px 0;
+}
+.company {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 6%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-offset: 0%;
+  text-decoration-thickness: 0%;
+  color: #ccad64;
+  margin-left: 2px;
+}

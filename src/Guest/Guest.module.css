@@ -1,0 +1,107 @@
+.guestList {
+  color: #dedede;
+}
+.profileWrapper {
+  display: flex;
+}
+.profile {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.guestWrapper {
+  margin-top: 150px;
+  display: flex;
+  max-width: 75%;
+  justify-content: space-between;
+  align-self: center;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+.name {
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  leading-trim: CAP_HEIGHT;
+  line-height: 160%;
+  letter-spacing: 3%;
+  color: #dedede;
+}
+.visit {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: CAP_HEIGHT;
+  line-height: 160%;
+  letter-spacing: 3%;
+  color: #9c9995;
+}
+.rating {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 3%;
+  color: #dedede;
+  max-width: 60%;
+}
+.cardBtn {
+  border-radius: 50%;
+  border: 1.5px solid #bc995d;
+  color: #bc995d;
+  padding: 15px;
+  background: transparent;
+}
+.gallery {
+  font-family: Oswald;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 11%;
+  text-transform: uppercase;
+  color: #fbead2;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+}
+.follow {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 90px;
+  leading-trim: NONE;
+  line-height: 110.00000000000001%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #fff4e3;
+  margin: 0;
+  padding: 0;
+  margin: 10px 0 20px 0;
+}
+.instaGalary {
+  width: 100%;
+  display: flex;
+  color: #fbead2;
+  flex-direction: column;
+  padding-bottom: 150px;
+}
+.icon {
+  color: #bc995d;
+  font: 30px;
+  margin-right: 5px;
+}
+.iconText {
+  color: #fbead2;
+  font-family: Oswald;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 11%;
+  text-transform: uppercase;
+}

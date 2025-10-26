@@ -1,0 +1,61 @@
+.contactWrapper {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.booking {
+  display: flex;
+  flex-direction: column;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 17%;
+}
+.hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+}
+.heading {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 11%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fbead2;
+  margin: 0;
+  padding: 0;
+}
+.phone {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 26px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ccad64;
+  margin: 0;
+  padding: 0;
+}
+.add {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #848484;
+}

@@ -1,0 +1,99 @@
+.highlightWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 150px;
+}
+.imgContainer {
+  width: 90%;
+  margin-top: 50px;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 30px;
+  leading-trim: NONE;
+  line-height: 110.00000000000001%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #fbead2;
+}
+.price {
+  font-family: Inter 18pt;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 12%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c99e5f;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.privateDinning {
+  margin-top: 150px;
+  width: 100%;
+  position: relative;
+}
+.overlayDisplay{
+position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.diningWrapper{
+    max-width: 40%;
+    margin: 100px 200px;
+    position: relative;
+    z-index: 2;
+}
+.heading1 {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 11%;
+  text-transform: uppercase;
+  color: #fbead2;
+  margin: 0;
+  padding: 0;
+}
+.heading2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  /* font-style: Italic; */
+  font-size: 90px;
+  leading-trim: NONE;
+  line-height: 110.00000000000001%;
+  letter-spacing: -2%;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.para {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 3%;
+  color: #fbead2;
+}

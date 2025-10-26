@@ -1,0 +1,123 @@
+.homeHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  color: #dddddd;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 3%;
+}
+.leftHeader,
+.rightHeader {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.headerIcon {
+  color: #ccad64;
+  margin-right: 2px;
+}
+.home {
+  position: relative;
+  background: url("../assets/home.gif") center center / cover no-repeat;
+  width: 100%;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.home > * {
+  position: relative;
+  z-index: 2;
+}
+
+.homeFirst {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.navWrapper {
+  width: 35%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #ffffff;
+  font-family: Manrope;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 6%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.nav > li:hover {
+  color: #ccad64;
+  cursor: pointer;
+}
+.logo {
+  width: 20%;
+  text-align: end;
+}
+.yellowBtn {
+  background: #ccad64;
+  border: 1px solid #ccad64;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 80%;
+  letter-spacing: 11%;
+  text-transform: uppercase;
+  color: #282828;
+  padding: 24px 30px;
+  cursor: pointer;
+}
+.yellowBtn:hover {
+  opacity: 0.8;
+}
+.homeMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+.cafeName {
+  color: #fff4e3;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Italic;
+  font-size: 130px;
+  leading-trim: NONE;
+  line-height: 110.00000000000001%;
+  letter-spacing: -2%;
+  text-align: center;
+  margin-bottom: 10px;
+}
